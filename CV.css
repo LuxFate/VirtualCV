@@ -2,21 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
 
 body{
     /*background-image: url('pxfuel.jpg');*/
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background: #252839;
     width: 100vw;
     height: 100vh;
 }
 
 header{
-    position: absolute;
+    position: fixed;
+    background-color: #383d52;
     top: 0;
     left: 0;
     width: 100%;
@@ -42,12 +41,17 @@ header{
     font-weight: 600;
 }
 
-.navigation a:hover, .navigation a.spawn{
+.navigation a:hover{
     background: #01fe87;
     color: white;
 }
 
-.Port {
+.navigation a.active{
+    background: #01fe87;
+    color: white;
+}
+
+#Port {
     position: relative;
     display: flex;
     justify-content: center;
@@ -90,3 +94,51 @@ h2::before {
         width: 100%;
     }
 }
+
+#About{
+    height: 75vh;
+    background-color: #383d52;
+}
+
+#TxTAbout{
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #01fe87;
+}
+#Hello{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #01fe87;
+}
+
+#Text{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Projects{
+    min-height: 100vh;
+    color: #01fe87;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    
+}
+
+
+
+
