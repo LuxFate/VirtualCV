@@ -6,10 +6,11 @@
 }
 
 body{
-    background-image: url('pxfuel.jpg');
+    /*background-image: url('pxfuel.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background: #252839;
     width: 100vw;
     height: 100vh;
 }
@@ -42,7 +43,7 @@ header{
 }
 
 .navigation a:hover, .navigation a.spawn{
-    background: mediumaquamarine;
+    background: #01fe87;
     color: white;
 }
 
@@ -54,8 +55,38 @@ header{
     height: 100vh;
 }
 
-#text {
+h2{
+    position: relative;
+    font-size: 7vw;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+
+}
+h2::before {
+    content: attr(data-text);
     position: absolute;
-    font-size: 5em;
-    color: white;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: #01fe87;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #01fe87;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: animate 6s linear forwards;
+    animation-iteration-count: 1; 
+}
+
+
+@keyframes animate{
+    0%
+    {
+        width: 0;
+    }
+
+    70%,100%
+    {
+        width: 100%;
+    }
 }
