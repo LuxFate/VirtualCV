@@ -13,7 +13,7 @@ body{
     height: 100vh;
 }
 
-header{
+Header{
     position: fixed;
     background-color: #383d52;
     top: 0;
@@ -128,17 +128,48 @@ h2::before {
     color: white;
 }
 
-#Projects{
+section#Projects{
     min-height: 100vh;
     color: #01fe87;
     padding: 10px;
     font-size: 40px;
     font-weight: bold;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: left;
+    text-align: left;
     
 }
 
+section#Projects h1{
+    margin-bottom: 20px;
+}
 
+.content {
+    display: flex; /* Align image and description horizontally */
+    align-items: center; /* Center items vertically within the flex container */
+    gap: 20px; /* Space between image and description */
+}
 
+.img1{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#space{
+    margin: 20px;
+    padding: 20px;
+}
 
