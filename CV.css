@@ -130,9 +130,10 @@ h2::before {
 #ContactInfo{
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    color: white;
+    color: #01fe87;
+    background-color: white;
 }
 
 section#Projects{
