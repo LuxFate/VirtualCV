@@ -50,6 +50,47 @@ Header{
     color: white;
 }
 
+#Heading{
+    background-color: #383d52;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#ContactInfo a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+#ContactInfo a:hover{
+    background: #01fe87;
+    color: white;
+}
+
+#ContactInfo a.active{
+    background: #01fe87;
+    color: white;
+}
+
+#Email{
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+
 #Port {
     position: relative;
     display: flex;
@@ -116,7 +157,7 @@ h2::before {
     display: flex;
     justify-content: left;
     align-items: center;
-    color: #01fe87;
+    color: white;
 }
 
 #TextDesc{
@@ -125,15 +166,6 @@ h2::before {
     justify-content: center;
     align-items: center;
     color: white;
-}
-
-#ContactInfo{
-    padding: 10px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    color: #01fe87;
-    background-color: white;
 }
 
 section#Projects{
@@ -205,5 +237,9 @@ section#Projects h1{
     text-decoration: none;
     color: white;
     font-size: 25px;
+}
+
+h4{
+    color: white;
 }
 
