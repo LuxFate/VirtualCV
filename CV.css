@@ -168,6 +168,20 @@ h2::before {
     color: white;
 }
 
+#Des{
+    color: white;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#AboutMe{
+    color: white;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
 section#Projects{
     min-height: 100vh;
     color: #01fe87;
