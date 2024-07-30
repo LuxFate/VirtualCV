@@ -17,9 +17,11 @@ const scrollToSection = (id) => {
 // Attach click event listeners to navigation links
 navLinks.forEach(link => {
     link.addEventListener('click', (e) => {
-        e.preventDefault(); // Prevent default anchor behavior
         const href = link.getAttribute('href');
-        scrollToSection(href); // Smooth scroll to section
+        if (href.startsWith('#')) {
+            e.preventDefault(); // Prevent default anchor behavior for internal links
+            scrollToSection(href); // Smooth scroll to section
+        }
     });
 });
 
