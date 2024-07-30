@@ -6,12 +6,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*Set initiale background*/
 body{
     background: #252839;
     width: 100vw;
     height: 100vh;
 }
 
+/*Set header background align text*/
 Header{
     position: fixed;
     background-color: #383d52;
@@ -25,12 +27,14 @@ Header{
     z-index: 100;
 }
 
+/*Set logo szie color, indicate no pointer event because the logo is not a button like the other */
 .logo{
     color: white;
     font-size: 2em;
     pointer-events: none;
 }
 
+/*Set the nav buttons style*/
 .navigation a{
     text-decoration: none;
     color: white;
@@ -40,17 +44,20 @@ Header{
     font-weight: 600;
 }
 
+/*Set the nav style when hoverd on with button*/
 .navigation a:hover{
     background: #01fe87;
     color: white;
 }
 
+/*This is to display which section on the webpage you are on*/
 .navigation a.active{
     background: #01fe87;
     color: white;
 }
 
-#Heading{
+/*Defines the heading for the about me section*/
+#HeadingAbout{
     background-color: #383d52;
     top: 0;
     left: 0;
@@ -62,6 +69,7 @@ Header{
     z-index: 100;
 }
 
+/*Sets buttons style by the about me section for my linkdin and github directory*/
 #ContactInfo a{
     text-decoration: none;
     color: white;
@@ -72,16 +80,18 @@ Header{
     justify-content: space-between;
 }
 
+/*Same thing with the header buttons*/
 #ContactInfo a:hover{
     background: #01fe87;
     color: white;
 }
-
+/*Same thing with the header buttons*/
 #ContactInfo a.active{
     background: #01fe87;
     color: white;
 }
 
+/*Set style for email*/
 #Email{
     padding: 10px;
     display: flex;
@@ -91,6 +101,7 @@ Header{
     color: white;
 }
 
+/*Set Home style and position when scrolling through website*/
 #Port {
     position: relative;
     display: flex;
@@ -122,7 +133,7 @@ h2::before {
     animation-iteration-count: 1; 
 }
 
-
+/*Increment h2 width using a animation iteration count*/
 @keyframes animate{
     0%
     {
@@ -135,11 +146,13 @@ h2::before {
     }
 }
 
+/*Set about section background and size*/
 #About{
     height: 75vh;
     background-color: #383d52;
 }
 
+/*Set style and font*/
 #TxTAbout{
     padding: 10px;
     display: flex;
@@ -149,6 +162,8 @@ h2::before {
     font-weight: bold;
     color: #01fe87;
 }
+
+/*Set style and font*/
 #Hello{
     padding: 10px;
     font-size: 40px;
@@ -160,12 +175,9 @@ h2::before {
     color: white;
 }
 
+/*Set initial display text*/
 #TextDesc{
-    padding: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
 }
 
 #Des{
@@ -174,7 +186,7 @@ h2::before {
     justify-content: center;
     align-items: center;
 }
-
+/*Set headings style for each section in the about me*/
 #AboutMe{
     color: white;
     padding: 10px 10px;
@@ -207,6 +219,12 @@ section#Projects h1{
     margin-bottom: 20px;
 }
 
+.desc{
+    color: white;
+    font-size: 20px;
+}
+
+/*Set img size and block size*/
 .img1{
     max-width: 200px;
     overflow: hidden;
@@ -224,11 +242,13 @@ section#Projects h1{
     display: block;
 }
 
+/*Similar to other directory buttons for projects github page */
 .link{
     margin-bottom: 40px;
 }
 
 .link a{
+    font-size: 30px;
     text-decoration: none;
     color: white;
     padding: 6px 15px;
@@ -242,18 +262,6 @@ section#Projects h1{
     color: white;
 }
 
-#space{
-    margin: 20px;
-    padding: 20px;
-}
 
-.desc{
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-}
 
-h4{
-    color: white;
-}
 
