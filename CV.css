@@ -224,6 +224,11 @@ section#Projects h1{
     font-size: 20px;
 }
 
+.desc1{
+    color: white;
+    font-size: 20px;
+}
+
 /*Set img size and block size*/
 .img1{
     max-width: 200px;

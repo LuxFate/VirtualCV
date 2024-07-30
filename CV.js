@@ -23,7 +23,7 @@ navLinks.forEach(link => {
     });
 });
 
-// Highlight active navigation link based on scroll position
+// Highlight active navigation link based on scroll position on the website
 window.addEventListener('scroll', () => {
     let current = '';
 
