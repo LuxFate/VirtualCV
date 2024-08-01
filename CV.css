@@ -277,41 +277,28 @@ section#Projects h1{
 
 /* For mobile phones: */
 @media (max-width: 600px) {
-    header{
-        flex-direction: column;
-        padding: 20px 20px;
-    }
-
-    .navigation a {
-        margin: 5px 0;
-    }
-
     #About {
         flex-direction: column;
-        padding: 2px;
+        padding: 20px;
     }
 
     #HeadingAbout {
         flex-direction: column;
         align-items: flex-start;
-        padding: 2px;
+        padding: 10px;
     }
 
     #ContactInfo a {
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
-    #TextDesc, #AboutMe {
-        font-size: 14px;
-    }
-
-    #des{
-        font-size: 12px;
+    #TextDesc, #Des, #AboutMe {
+        font-size: 16px;
     }
 
     #TxTAbout, #Hello {
-        font-size: 14px;
+        font-size: 24px;
     }
 }
   
