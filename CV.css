@@ -275,7 +275,34 @@ section#Projects h1{
     color: white;
 }
 
+/* Mobile-specific styles */
+@media (max-width: 600px) {
+    #About {
+        background-size: cover; /* Ensure background covers the section */
+        padding: 30px; /* Larger padding on mobile */
+        min-height: 80vh; /* Larger min-height on mobile */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+    #HeadingAbout {
+        margin-bottom: 20px;
+    }
+
+    #ContactInfo a {
+        margin-bottom: 10px;
+    }
+
+    #TextDesc, #Des, #AboutMe {
+        font-size: 16px;
+    }
+
+    #TxTAbout, #Hello {
+        font-size: 24px;
+    }
+}
   
 
 
