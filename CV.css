@@ -277,7 +277,7 @@ section#Projects h1{
 
 /* For mobile phones: */
 /* For mobile phones */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     #About {
         background-color: #383d52; /* Ensure background color or image is applied */
         background-size: cover; /* Make sure background covers the section */
