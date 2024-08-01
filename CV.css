@@ -14,7 +14,7 @@ body{
 }
 
 /*Set header background align text*/
-Header{
+header{
     position: fixed;
     background-color: #383d52;
     top: 0;
@@ -277,9 +277,13 @@ section#Projects h1{
 
 /* For mobile phones: */
 @media (max-width: 600px) {
-    #Header{
+    header{
         flex-direction: column;
-        padding: 5px;
+        padding: 20px 20px;
+    }
+
+    .navigation a {
+        margin: 5px 0;
     }
 
     #About {
@@ -290,7 +294,8 @@ section#Projects h1{
     #HeadingAbout {
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px;
+        padding: 20px;
+        z-index: 200;
     }
 
     #ContactInfo a {
