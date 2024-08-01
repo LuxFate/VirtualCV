@@ -275,65 +275,6 @@ section#Projects h1{
     color: white;
 }
 
-/* For mobile phones: */
-/* For mobile phones */
-@media (max-width: 800px) {
-    #About {
-        background-color: #383d52; /* Ensure background color or image is applied */
-        background-size: cover; /* Make sure background covers the section */
-        background-position: center; /* Center background image */
-        padding: 30px; /* Increase padding for larger background area */
-        min-height: 80vh; /* Increase minimum height */
-        display: flex;
-        flex-direction: column;
-        justify-content: center; /* Center content vertically */
-        align-items: center; /* Center content horizontally */
-    }
-
-    #HeadingAbout {
-        margin-bottom: 20px; /* Ensure proper spacing below the heading */
-    }
-
-    #ContactInfo a {
-        margin-bottom: 10px; /* Add space between links */
-    }
-
-    #TextDesc, #Des, #AboutMe {
-        font-size: 16px; /* Adjust font size for mobile */
-    }
-
-    #TxTAbout, #Hello {
-        font-size: 24px; /* Adjust font size for mobile */
-    }
-}
-
-  
-  /* For tablets: */
-  @media (min-width: 601px) and (max-width: 768px) {
-    #About {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    #HeadingAbout {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
-    }
-
-    #ContactInfo a {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    #TextDesc, #Des, #AboutMe {
-        font-size: 18px;
-    }
-
-    #TxTAbout, #Hello {
-        font-size: 28px;
-    }
-}
 
   
 
