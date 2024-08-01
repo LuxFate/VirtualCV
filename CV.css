@@ -302,8 +302,12 @@ section#Projects h1{
         margin-bottom: 10px;
     }
 
-    #TextDesc, #Des, #AboutMe {
+    #TextDesc, #AboutMe {
         font-size: 14px;
+    }
+
+    #des{
+        font-size: 12px;
     }
 
     #TxTAbout, #Hello {
