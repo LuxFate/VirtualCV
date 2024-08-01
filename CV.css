@@ -277,24 +277,63 @@ section#Projects h1{
 
 /* For mobile phones: */
 @media (max-width: 600px) {
-    #About {
-      flex: 100%;
+    #Header{
+        flex-direction: column;
+        padding: 5px;
     }
-  }
+
+    #About {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #HeadingAbout {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    #ContactInfo a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #TextDesc, #Des, #AboutMe {
+        font-size: 16px;
+    }
+
+    #TxTAbout, #Hello {
+        font-size: 24px;
+    }
+}
   
   /* For tablets: */
   @media (min-width: 601px) and (max-width: 768px) {
     #About {
-      flex: 50%;
+        flex-direction: column;
+        padding: 20px;
     }
-  }
-  
-  /* For desktops: */
-  @media (min-width: 769px) {
-    #About {
-      flex: 25%;
+
+    #HeadingAbout {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
     }
-  }
+
+    #ContactInfo a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #TextDesc, #Des, #AboutMe {
+        font-size: 18px;
+    }
+
+    #TxTAbout, #Hello {
+        font-size: 28px;
+    }
+}
+
   
 
 
