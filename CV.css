@@ -288,18 +288,18 @@ section#Projects h1{
 
     #About {
         flex-direction: column;
-        padding: 10px;
+        padding: 2px;
     }
 
     #HeadingAbout {
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px;
+        padding: 2px;
     }
 
     #ContactInfo a {
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     #TextDesc, #AboutMe {
