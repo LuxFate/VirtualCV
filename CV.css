@@ -288,13 +288,13 @@ section#Projects h1{
 
     #About {
         flex-direction: column;
-        padding: 20px;
+        padding: 10px;
     }
 
     #HeadingAbout {
         flex-direction: column;
         align-items: flex-start;
-        padding: 5px;
+        padding: 10px;
     }
 
     #ContactInfo a {
@@ -303,11 +303,11 @@ section#Projects h1{
     }
 
     #TextDesc, #Des, #AboutMe {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     #TxTAbout, #Hello {
-        font-size: 24px;
+        font-size: 14px;
     }
 }
   
